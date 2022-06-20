@@ -1,0 +1,44 @@
+[package]
+name = "rust_token"
+version = "0.1.0"
+authors = ["javier"]
+edition = "2021"
+
+[dependencies]
+actix-rt = "2.7.0"
+
+#cors
+actix-web = "4.0.1"
+actix-web-httpauth = "0.5.1"
+
+#see files
+actix-files = "0.4.0"
+
+#conexion mysql
+#mysql = "*"
+
+#serialize
+serde = { version = "1.0.104", features = ["derive"] }
+
+#para tener una configuracion y no compilar al cambiarla
+dotenv = "0.15.0"
+
+#leer configuracon de diferentes fuentes
+config = "0.10.1"
+
+#tokio is an event-drive asyncron app in rust/lower version doesn't work
+tokio-pg-mapper = "0.2.0"
+
+#Proc-macro library used to map a tokio-postgres row to a Rust type (struct)
+tokio-pg-mapper-derive = "0.1.5"
+
+#Deadpool is a dead simple async pool for connections and objects of any type.
+deadpool-postgres = { version = "0.10.1", features = ["serde"] }
+
+#A native, synchronous PostgreSQL client.
+tokio-postgres = "0.7.5"
+
+#control errors
+derive_more = "0.99.2"
+
+serde_json = "1.0"
