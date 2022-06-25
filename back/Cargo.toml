@@ -6,16 +6,12 @@ edition = "2021"
 
 [dependencies]
 actix-rt = "2.7.0"
-
-#cors
 actix-web = "4.0.1"
 actix-web-httpauth = "0.5.1"
+actix-cors = "0.6.1"
 
 #see files
 actix-files = "0.4.0"
-
-#conexion mysql
-#mysql = "*"
 
 #serialize
 serde = { version = "1.0.104", features = ["derive"] }

@@ -79,7 +79,7 @@ impl Component for Form {
     fn view(&self, ctx: &Context<Self>) -> Html {
         let on_change_name = ctx.link().callback(Msg::SetName);
         let on_change_email = ctx.link().callback(Msg::SetEmail);
-        let header = "Form component";
+        let header = "Form Component";
         html! {
             <main>
                 <br/><hr/><br/>
@@ -87,7 +87,7 @@ impl Component for Form {
                     <h2>{ header }</h2>
                 </div>
                 <div>
-                    {"Enter a new Author: "}
+                    {"Enter a new Name: "}
                     <TextInputName {on_change_name} value={self.name.clone()} />
                 </div>
                 <b></b>
