@@ -43,20 +43,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "front"
-version = "0.1.0"
-dependencies = [
- "js-sys",
- "reqwasm",
- "serde",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "web-sys",
- "yew",
-]
-
-[[package]]
 name = "futures"
 version = "0.3.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -372,6 +358,20 @@ dependencies = [
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "web-sys",
+]
+
+[[package]]
+name = "rust_front"
+version = "0.1.0"
+dependencies = [
+ "js-sys",
+ "reqwasm",
+ "serde",
+ "serde_json",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "web-sys",
+ "yew",
 ]
 
 [[package]]

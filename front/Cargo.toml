@@ -1,5 +1,5 @@
 [package]
-name = "front"
+name = "rust_front"
 version = "0.1.0"
 authors = ["javier"]
 edition = "2021"
