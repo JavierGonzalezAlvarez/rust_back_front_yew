@@ -1,4 +1,4 @@
-# writting the back and the front ni rust with actix-web and yew
+# writting the back and the front in rust with actix-web & yew
 
 # back with actix-web & posgres
 $ cargo --vesion
