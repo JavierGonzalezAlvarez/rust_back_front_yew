@@ -1,6 +1,6 @@
-# writting the back and the front ni rust with activeweb and yew
+# writting the back and the front ni rust with actix-web and yew
 
-# back with activex-web & posgres
+# back with actix-web & posgres
 $ cargo --vesion
 $ cargo new rust_api_back_front --bin
 

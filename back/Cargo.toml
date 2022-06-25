@@ -1,5 +1,5 @@
 [package]
-name = "rust_token"
+name = "rust_back"
 version = "0.1.0"
 authors = ["javier"]
 edition = "2021"

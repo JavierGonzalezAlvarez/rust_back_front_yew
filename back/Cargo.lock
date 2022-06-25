@@ -1955,7 +1955,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3e52c148ef37f8c375d49d5a73aa70713125b7f19095948a923f80afdeb22ec2"
 
 [[package]]
-name = "rust_token"
+name = "rust_back"
 version = "0.1.0"
 dependencies = [
  "actix-cors",
